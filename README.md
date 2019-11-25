@@ -15,7 +15,7 @@ expected result set should be a subset of the original array.
 * Node 8
 * Git
 
-Used FS Node Package to create generate result json file.
+Used FS Node Package to generate result json file.
 # File System
 
 <!--introduced_in=v0.0.1-security-->
@@ -60,10 +60,10 @@ npm install
 ```bash
 npm run solution
 ```
-1. input source file- click.json
+1. input source file- src/click.json
 2. ouput source file - dist/resultset.json (please remove this file only before run this command)
 
-when the run command it is executed resultset.json in dist folder. A json file with the result set produced by your solution
+when the run this command, it is executed resultset.json file in the dist folder. A json file with the result set produced by your solution
 
 ```bash
 npm run test
