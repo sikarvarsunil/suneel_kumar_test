@@ -44,7 +44,7 @@
             count=0,
             compareamount,
             sameIp = data.sort(dynamicSort("ip"));
-        if (!sameIp.length > 1) {
+        if (sameIp.length < 2) {
             return sameIp;
         }
         for (i = 0; i < sameIp.length - 1; i++) {
