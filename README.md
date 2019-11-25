@@ -61,7 +61,7 @@ npm install
 npm run solution
 ```
 1. input source file- click.json
-2. input source file - dist/
+2. ouput source file - dist/resultset.json (please remove this file only before run this command)
 
 when the run command it is executed resultset.json in dist folder. A json file with the result set produced by your solution
 
